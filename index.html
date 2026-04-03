@@ -1,58 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Anthropocene Nursery</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Canva-like font pairing -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="nav-logo">Anthropocene Nursery</div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About us</a>
+        <a href="#stock">Stock list</a>
+        <a href="#brands">Brands we carry</a>
+        <a href="#shop">Online shop</a>
+        <a href="#resources">Resources</a>
+      </nav>
+    </div>
+  </header>
+
   <!-- HERO -->
-  <section class="hero">
-    <div class="overlay">
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Vegetable starts, Edibles, & Native plants</p>
       <h1>Anthropocene Nursery</h1>
-      <p>Plants for a changing world</p>
+      <p class="hero-subtitle">
+        Vegetable starts, Edibles, & Native plants for the surrounding communities.
+      </p>
+      <div class="hero-buttons">
+        <a href="#about" class="btn primary">More Info</a>
+        <a href="#stock" class="btn ghost">Stock list</a>
+      </div>
     </div>
   </section>
 
   <!-- ABOUT -->
-  <section class="section">
-    <h2>About</h2>
-    <p>
-      We grow resilient plants adapted for modern ecosystems. 
-      Focused on biodiversity, soil health, and future landscapes.
-    </p>
+  <section id="about" class="section">
+    <div class="section-inner narrow">
+      <h2>About us</h2>
+      <p>
+        We are an edible and native plant nursery specializing in growing vegetable starts
+        for the surrounding communities. Focused on resilient plants, biodiversity, and
+        future-ready landscapes.
+      </p>
+    </div>
   </section>
 
-  <!-- PLANTS -->
-  <section class="section plants">
-    <h2>Plants</h2>
-    <div class="grid">
-      <div class="card">
-        <img src="https://picsum.photos/400?1">
-        <p>Native Perennials</p>
-      </div>
-      <div class="card">
-        <img src="https://picsum.photos/400?2">
-        <p>Drought-Tolerant Species</p>
-      </div>
-      <div class="card">
-        <img src="https://picsum.photos/400?3">
-        <p>Edible Landscapes</p>
+  <!-- STOCK LIST -->
+  <section id="stock" class="section alt">
+    <div class="section-inner">
+      <h2>Stock list</h2>
+      <p class="section-intro">
+        Explore what’s currently growing in the nursery.
+      </p>
+      <div class="grid">
+        <div class="card">
+          <h3>Native plants</h3>
+          <p>Perennials and shrubs adapted to local ecosystems.</p>
+        </div>
+        <div class="card">
+          <h3>Edible perennials</h3>
+          <p>Fruit, herbs, and long-lived edibles for resilient gardens.</p>
+        </div>
+        <div class="card">
+          <h3>Seeds</h3>
+          <p>Seasonal seeds for vegetables, herbs, and native species.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section class="section">
-    <h2>Contact</h2>
-    <p>Email: hello@yournursery.com</p>
+  <!-- BRANDS WE CARRY -->
+  <section id="brands" class="section">
+    <div class="section-inner narrow">
+      <h2>Brands we carry</h2>
+      <p>
+        We partner with trusted growers and suppliers who share our commitment to soil health,
+        biodiversity, and sustainable practices.
+      </p>
+    </div>
   </section>
 
-  <footer>
-    <p>© 2026 Anthropocene Nursery</p>
+  <!-- ONLINE SHOP -->
+  <section id="shop" class="section alt">
+    <div class="section-inner narrow center">
+      <h2>Online shop</h2>
+      <p>
+        Browse our plants and seeds online and plan your next planting season.
+      </p>
+      <a href="#stock" class="btn primary">View stock list</a>
+    </div>
+  </section>
+
+  <!-- RESOURCES -->
+  <section id="resources" class="section">
+    <div class="section-inner">
+      <h2>Resources</h2>
+      <p class="section-intro">
+        Learn more about native plants, edible landscapes, and gardening in a changing climate.
+      </p>
+      <div class="grid">
+        <div class="card">
+          <h3>Planting guides</h3>
+          <p>Seasonal tips for starting and maintaining your garden.</p>
+        </div>
+        <div class="card">
+          <h3>Soil health</h3>
+          <p>Basics of building living, resilient soil ecosystems.</p>
+        </div>
+        <div class="card">
+          <h3>Native ecology</h3>
+          <p>Why native plants matter for pollinators and wildlife.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL / FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-title">Anthropocene Nursery</p>
+      <p class="footer-text">
+        Vegetable starts, Edibles, & Native plants
+      </p>
+      <p class="footer-text">
+        Social Media · Coming soon
+      </p>
+      <p class="footer-copy">
+        © 2026 Anthropocene Nursery
+      </p>
+    </div>
   </footer>
 
 </body>
 </html>
+
